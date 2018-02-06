@@ -92,7 +92,9 @@ class AdsCollectionViewController: UICollectionViewController {
             collectionView.reloadItems(at: [indexPath])
         } else {
             self.favouriteAds[indexPath.row].isFavourite = false
-            self.ads[self.favouriteAds[indexPath.row].referenceAdIndex].isFavourite = false
+            if(self.ads.count > Constants.startIndex) {
+                self.ads[self.favouriteAds[indexPath.row].referenceAdIndex].isFavourite = false
+            }
             self.favouriteAds.remove(at: indexPath.row)
             collectionView.reloadData()
         }
