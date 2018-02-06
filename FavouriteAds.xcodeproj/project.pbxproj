@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3653A18D20260E0400C70A31 /* SavedAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653A18C20260E0400C70A31 /* SavedAd.swift */; };
+		365A2818202A2DA200EBDF0B /* AdsCollectionViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365A2817202A2DA200EBDF0B /* AdsCollectionViewController+Extension.swift */; };
+		365A281D202A362A00EBDF0B /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365A281C202A362A00EBDF0B /* String+extension.swift */; };
 		368615DF2023783200421C55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368615DE2023783200421C55 /* AppDelegate.swift */; };
-		368615E12023783200421C55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368615E02023783200421C55 /* ViewController.swift */; };
 		368615E42023783200421C55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368615E22023783200421C55 /* Main.storyboard */; };
-		368615E72023783200421C55 /* FavouriteAds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 368615E52023783200421C55 /* FavouriteAds.xcdatamodeld */; };
 		368615E92023783200421C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368615E82023783200421C55 /* Assets.xcassets */; };
 		368615EC2023783200421C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368615EA2023783200421C55 /* LaunchScreen.storyboard */; };
+		368615F420237A2B00421C55 /* AdsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368615F320237A2B00421C55 /* AdsCollectionViewController.swift */; };
+		368615F620237E0800421C55 /* Ad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368615F520237E0800421C55 /* Ad.swift */; };
+		368615FB2023937600421C55 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368615FA2023937600421C55 /* Constants.swift */; };
+		368616012024919100421C55 /* AdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368616002024919000421C55 /* AdCell.swift */; };
+		3686160420249E3C00421C55 /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3686160320249E3C00421C55 /* UIImage+extension.swift */; };
+		56674FCBEDE94C16D8A3207B /* Pods_FavouriteAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A4F275BCAF3C902C56DA16 /* Pods_FavouriteAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3653A18C20260E0400C70A31 /* SavedAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedAd.swift; sourceTree = "<group>"; };
+		365A2817202A2DA200EBDF0B /* AdsCollectionViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdsCollectionViewController+Extension.swift"; sourceTree = "<group>"; };
+		365A281C202A362A00EBDF0B /* String+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
 		368615DB2023783200421C55 /* FavouriteAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		368615DE2023783200421C55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		368615E02023783200421C55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		368615E32023783200421C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		368615E62023783200421C55 /* FavouriteAds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavouriteAds.xcdatamodel; sourceTree = "<group>"; };
 		368615E82023783200421C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		368615EB2023783200421C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		368615ED2023783200421C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368615F320237A2B00421C55 /* AdsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsCollectionViewController.swift; sourceTree = "<group>"; };
+		368615F520237E0800421C55 /* Ad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ad.swift; sourceTree = "<group>"; };
+		368615FA2023937600421C55 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		368616002024919000421C55 /* AdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCell.swift; sourceTree = "<group>"; };
+		3686160320249E3C00421C55 /* UIImage+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+extension.swift"; sourceTree = "<group>"; };
+		827A2F2A2DDCCC5021A9DAA6 /* Pods-FavouriteAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavouriteAds.release.xcconfig"; path = "Pods/Target Support Files/Pods-FavouriteAds/Pods-FavouriteAds.release.xcconfig"; sourceTree = "<group>"; };
+		93A4F275BCAF3C902C56DA16 /* Pods_FavouriteAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FavouriteAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7444C476CBA758BD2727C8E /* Pods-FavouriteAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavouriteAds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FavouriteAds/Pods-FavouriteAds.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56674FCBEDE94C16D8A3207B /* Pods_FavouriteAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		117C30C712E3D182672EFD13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93A4F275BCAF3C902C56DA16 /* Pods_FavouriteAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		365A2819202A349300EBDF0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				368615EA2023783200421C55 /* LaunchScreen.storyboard */,
+				368615E22023783200421C55 /* Main.storyboard */,
+				368616002024919000421C55 /* AdCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		365A281B202A34CD00EBDF0B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				368615E82023783200421C55 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		368615D22023783200421C55 = {
 			isa = PBXGroup;
 			children = (
 				368615DD2023783200421C55 /* FavouriteAds */,
 				368615DC2023783200421C55 /* Products */,
+				FEBBE5F5CE5DD508F8D9F75E /* Pods */,
+				117C30C712E3D182672EFD13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,52 @@
 		368615DD2023783200421C55 /* FavouriteAds */ = {
 			isa = PBXGroup;
 			children = (
+				365A281B202A34CD00EBDF0B /* Assets */,
+				365A2819202A349300EBDF0B /* View */,
+				3686160520249E6E00421C55 /* Extensions */,
+				36861602202491C400421C55 /* Controller */,
+				368615F7202381B700421C55 /* Model */,
 				368615DE2023783200421C55 /* AppDelegate.swift */,
-				368615E02023783200421C55 /* ViewController.swift */,
-				368615E22023783200421C55 /* Main.storyboard */,
-				368615E82023783200421C55 /* Assets.xcassets */,
-				368615EA2023783200421C55 /* LaunchScreen.storyboard */,
 				368615ED2023783200421C55 /* Info.plist */,
-				368615E52023783200421C55 /* FavouriteAds.xcdatamodeld */,
 			);
 			path = FavouriteAds;
+			sourceTree = "<group>";
+		};
+		368615F7202381B700421C55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				368615F520237E0800421C55 /* Ad.swift */,
+				368615FA2023937600421C55 /* Constants.swift */,
+				3653A18C20260E0400C70A31 /* SavedAd.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		36861602202491C400421C55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				368615F320237A2B00421C55 /* AdsCollectionViewController.swift */,
+				365A2817202A2DA200EBDF0B /* AdsCollectionViewController+Extension.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3686160520249E6E00421C55 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3686160320249E3C00421C55 /* UIImage+extension.swift */,
+				365A281C202A362A00EBDF0B /* String+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FEBBE5F5CE5DD508F8D9F75E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7444C476CBA758BD2727C8E /* Pods-FavouriteAds.debug.xcconfig */,
+				827A2F2A2DDCCC5021A9DAA6 /* Pods-FavouriteAds.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 368615F02023783200421C55 /* Build configuration list for PBXNativeTarget "FavouriteAds" */;
 			buildPhases = (
+				A4BFC4E530E9973B124DA459 /* [CP] Check Pods Manifest.lock */,
 				368615D72023783200421C55 /* Sources */,
 				368615D82023783200421C55 /* Frameworks */,
 				368615D92023783200421C55 /* Resources */,
+				7ABA01F884A6968E497316BA /* [CP] Embed Pods Frameworks */,
+				D3845ACDE711693372A93866 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +219,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7ABA01F884A6968E497316BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FavouriteAds/Pods-FavouriteAds-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FavouriteAds/Pods-FavouriteAds-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4BFC4E530E9973B124DA459 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FavouriteAds-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3845ACDE711693372A93866 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FavouriteAds/Pods-FavouriteAds-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		368615D72023783200421C55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				368615E12023783200421C55 /* ViewController.swift in Sources */,
+				3653A18D20260E0400C70A31 /* SavedAd.swift in Sources */,
+				368616012024919100421C55 /* AdCell.swift in Sources */,
+				368615FB2023937600421C55 /* Constants.swift in Sources */,
+				368615F620237E0800421C55 /* Ad.swift in Sources */,
+				368615F420237A2B00421C55 /* AdsCollectionViewController.swift in Sources */,
 				368615DF2023783200421C55 /* AppDelegate.swift in Sources */,
-				368615E72023783200421C55 /* FavouriteAds.xcdatamodeld in Sources */,
+				3686160420249E3C00421C55 /* UIImage+extension.swift in Sources */,
+				365A2818202A2DA200EBDF0B /* AdsCollectionViewController+Extension.swift in Sources */,
+				365A281D202A362A00EBDF0B /* String+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,13 +423,17 @@
 		};
 		368615F12023783200421C55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7444C476CBA758BD2727C8E /* Pods-FavouriteAds.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PBGS6554L8;
 				INFOPLIST_FILE = FavouriteAds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FavouriteAds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -290,13 +441,17 @@
 		};
 		368615F22023783200421C55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827A2F2A2DDCCC5021A9DAA6 /* Pods-FavouriteAds.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PBGS6554L8;
 				INFOPLIST_FILE = FavouriteAds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FavouriteAds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -324,19 +479,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		368615E52023783200421C55 /* FavouriteAds.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				368615E62023783200421C55 /* FavouriteAds.xcdatamodel */,
-			);
-			currentVersion = 368615E62023783200421C55 /* FavouriteAds.xcdatamodel */;
-			path = FavouriteAds.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 368615D32023783200421C55 /* Project object */;
 }
