@@ -6,7 +6,7 @@ to display and cached images. I used NSCoding for local storage and saves ads fo
 
 ## Improvements
 
-I beleive I could have used key value coding rather that using arrays as this won't scale with more random input of arrays and some of my efficiency could have been improved.
+I beleive I could have used key value coding to reference saved ads to the main ad array as this would scale with more random input of arrays and some of my efficiency could have been improved.
 
 ## How to Use
 
